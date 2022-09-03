@@ -5,16 +5,16 @@
 
 #hu {
     background-color: rgb(140, 228, 244);
-    height: 80px;
+    height: 80px;/*顶部导航栏宽度*/
     color: rgb(239, 91, 172);
-    text-indent: 5em;
+    text-indent: 10em;/*导航文字的左右位置*/
     line-height: 80px;
     /*上下移动*/
     font-family: 楷体;
     font-size: 40px;
     font-weight: 700;
     /*text-decoration: line-through/*这段文字事标题中划线*/
-    text-decoration: underline
+    /*text-decoration: underline*/
         /*下划线*/
         /*text-decoration: overline /*上划线*/
 }
@@ -130,8 +130,8 @@
 }
 /* From uiverse.io by @mobinkakei */
 .loader {
-    --path: #30dd61;
-    --dot: #5628ee;
+    --path: #ef7ae1;
+    --dot: #ef7ae1;
     --duration: 3s;
     width: 44px;
     height: 44px;
@@ -143,7 +143,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #ecace1;
+    background-color: #7dafe2;
     display: flex;
     justify-content: center;
     align-items: center;
